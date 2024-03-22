@@ -18,7 +18,7 @@ Este projeto é um exercício do curso DEVQUEST, módulo CSS intermediário. O o
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request com sugestões, correções ou melhorias para o projeto.
 
 ## Autor
-Este projeto foi desenvolvido por [Seu Nome](https://github.com/seu-usuario).
+Este projeto foi desenvolvido por [Lucas Edmundo](https://github.com/seu-usuario).
 
 ## Licença
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
