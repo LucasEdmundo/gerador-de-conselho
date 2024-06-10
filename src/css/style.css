@@ -1,12 +1,6 @@
 body {
     background-color: var(--background-color);
-    font-family: 'Fira Code', monospace;
-    font-family: 'Kumbh Sans', sans-serif;
-    font-family: 'Manrope', sans-serif;
-    font-family: 'Outfit', sans-serif;
-    
-
-
+    font-family: 'Fira Code', monospace, 'Kumbh Sans', sans-serif, 'Manrope', sans-serif, 'Outfit', sans-serif;
 }
 
 .container {
@@ -14,39 +8,39 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-
 }
 
 .card {
     width: 500px;
-    height: 300px;
     background-color: var(--advice-card-color);
     border-radius: 8px;
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     align-items: center;
-    
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .advice {
     color: var(--advice-dice-color);
-    margin: 30px;
-    letter-spacing: 5px;
-    
-
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .message {
     color: var(--text-color);
-    text-align: center;
-    padding:23px ;
-    font-size: 23px;
-    gap: 23px;
-    
+    padding: 0 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
 }
 
-.linha-de-divisao{
-    margin: 23px;
+.linha-de-divisao {
+    width: 100%;
+    margin: 20px 0;
 }
 
 .dado {
@@ -57,5 +51,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: translateY(50%);
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+    position: relative;
+    top: 40px;
+}
+
+.dado img {
+    width: 24px;
+    height: 24px;
+}
+
+.dado:hover {
+    background-color:  hsl(150, 63%, 80%);
 }
